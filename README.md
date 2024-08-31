@@ -10,6 +10,9 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](/media/TO_BE_UPDATED.md)
 [![poster](https://img.shields.io/badge/Presentation-Poster-blue)](/media/TO_BE_UPDATED.md)
 
+<p align="center">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Image">
+</p>
 
 <hr />
 
@@ -92,7 +95,7 @@ birdclef2023-dataset/
 We have performed all experiments on `NVIDIA RTX 4090` GPU. Shell scripts to run experiments can be found in [scripts](/scripts/) folder. Below are the shell commands to run experiments (`fine-tuning`, `linear probing`, or `random initialization`). Before running the commands, please ensure that you set the file paths for the dataset root directory and the directory where you want to save the model weights.
 
 ```shell
-## Fine-tuning
+## Fine-Tuning
 bash scripts/bird_whisperer_finetune.sh
 ```
 
