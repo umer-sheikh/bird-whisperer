@@ -11,7 +11,6 @@
 [![poster](https://img.shields.io/badge/Presentation-Poster-blue)](/media/TO_BE_UPDATED.md)
 
 
-
 <hr />
 
 | ![main figure](/media/methodology.png)|
