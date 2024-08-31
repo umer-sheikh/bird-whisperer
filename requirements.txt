@@ -1,0 +1,14 @@
+# PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.12.0+cu113
+torchvision==0.13.0+cu113
+torchaudio==0.12.0
+
+
+# Others
+scikit-learn==1.2.2
+openai-whisper==20231106
+pydub==0.25.1
+pandas==1.5.3
+matplotlib
+notebook
