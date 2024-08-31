@@ -131,6 +131,8 @@ def setup_logging(args):
     config_name = f"{'data-aug_' if args.augmented_run else 'data-orig_'}{'spec-aug_' if args.spec_aug else 'no-spec-aug_'}{args.training_mode}"
     args.config_name = config_name
 
+    if not os.path.exists(os.path.join(os.getcwd(),'logs')): os.mkdir(os.path.join(os.getcwd(),'logs'))
+
     log_dir = os.path.join('logs', args.model_name, config_name) # log file dir
     args.log_dir = log_dir
     
