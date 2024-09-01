@@ -1,4 +1,4 @@
-# Bird Whisperer: Leveraging Large Pre-trained Acoustic Model for Bird Call Classification (INTERSPEECH'24)
+# Bird Whisperer: Leveraging Large Pre-trained Acoustic Model for Bird Call Classification (InterSpeech'24)
 
 > [**Bird Whisperer: Leveraging Large Pre-trained Acoustic Model for Bird Call Classification**](/media/TO_BE_UPDATED.md)<br><br>
 > [Muhammad Umer Sheikh](https://scholar.google.com/citations?hl=en&authuser=2&user=xwnfWHEAAAAJ), [Hassan Abid](https://scholar.google.com/citations?user=0kaOLSgAAAAJ&hl=en), [Bhuiyan Sanjid Shafique](),
