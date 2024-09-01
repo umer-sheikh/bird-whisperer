@@ -7,7 +7,7 @@
 
 
 <!-- [![page](https://img.shields.io/badge/Project-Page-F9D371)](/media/TO_BE_UPDATED.md) -->
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](/media/TO_BE_UPDATED.md)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](/media/bbird_whisperer_interspeech2024.pdf)
 [![poster](https://img.shields.io/badge/Presentation-Poster-blue)](/media/TO_BE_UPDATED.md)
 
 <p align="center">
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 </br>
 
-## Datasets :page_with_curl:
+## Dataset :page_with_curl:
 We have performed experiments on the following bird calls classification dataset: [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023)&nbsp;
 
 We provide instructions for downloading and processing the dataset used by our method in the [DATASET.md](/birdclef_preprocess/DATASET.md). 
@@ -92,10 +92,10 @@ birdclef2023-dataset/
 
 ## Run Experiments :zap:
 
-We have performed all experiments on `NVIDIA RTX 4090` GPU. Shell scripts to run experiments can be found in [scripts](/scripts/) folder. Below are the shell commands to run experiments (`fine-tuning`, `linear probing`, or `random initialization`). Before running the commands, please ensure that you set the file paths for the dataset root directory and the directory where you want to save the model weights.
+We have performed all experiments on `NVIDIA RTX 4090` GPU. Shell scripts to run experiments can be found in [scripts](/scripts/) folder. Below are the shell commands to run experiments (`fine-tuning`, `linear probing`, or `random initialization`). Before running the commands, please ensure that you set the paths for the dataset root directory and the directory where you want to save the model weights.
 
 ```shell
-## Fine-Tuning
+## Fine Tuning
 bash scripts/bird_whisperer_finetune.sh
 ```
 
@@ -113,7 +113,7 @@ Results are saved in `json` format in [logs](/logs/) directory.
 
 To run experiments on the original dataset, simply remove the `--augmented_run` argument from the Shell scripts.
 
-If you want to use the EfficientNet-B4 model as the feature extractor instead of Whisper, change the `MODEL_NAME` variable in the Shell scripts from `'whisper'` to `'efficientnet_b4'`.
+If you want to use the EfficientNet-B4 model as the feature extractor instead of Whisper, change the `MODEL_NAME` variable in the shell [scripts](/scripts) from `'whisper'` to `'efficientnet_b4'`.
 
 </br>
 <hr/>
@@ -131,7 +131,7 @@ If you want to use the EfficientNet-B4 model as the feature extractor instead of
 
 ## Citation :star:
 (In progress)<br>
-If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
+If you find our work or this repository useful, please consider giving a star :star: and citation.
 ```bibtex
 ```
 
@@ -143,5 +143,5 @@ Should you have any questions, please create an issue on this repository or cont
 <hr/>
 
 ## Acknowledgement :pray:
-We used the [Whisper](https://github.com/openai/whisper) codebase for the feature extraction and fine-tuning of models in our proposed method **Bird Whisperer**. We thank the authors for releasing the codebase.
+We used the [Whisper](https://github.com/openai/whisper) codebase for the feature extraction in our proposed method **Bird Whisperer**. We thank the authors for releasing the codebase.
 
