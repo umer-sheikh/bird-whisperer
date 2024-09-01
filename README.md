@@ -45,7 +45,7 @@ For more details, please refer to our or [arxive paper](). -->
 </br>
 
 ## Updates :rocket:
-- **June 04, 2024** : Accepted in [INTERSPEECH 2024](https://interspeech2024.org/) &nbsp;&nbsp; :confetti_ball: :tada:
+- **June 04, 2024** : Accepted in [INTER SPEECH 2024](https://interspeech2024.org/) &nbsp;&nbsp; :confetti_ball: :tada:
 - **September 01, 2024** : Released code for Bird Whisperer
 
 </br>
