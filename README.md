@@ -129,9 +129,14 @@ If you want to use the EfficientNet-B4 model as the feature extractor instead of
 <hr/>
 
 ## Citation :star:
-(In progress)<br>
 If you find our work or this repository useful, please consider giving a star :star: and citation.
 ```bibtex
+@inproceedings{birdwhisperer2024,
+  title     = {Bird Whisperer: Leveraging Large Pre-trained Acoustic Model for Bird Call Classification},
+  author    = {Muhammad Umer Sheikh and Hassan Abid and Bhuiyan Sanjid Shafique and Asif Hanif and Muhammad Haris},
+  booktitle = {Proceedings of the INTERSPEECH 2024 Conference},
+  year      = {2024},
+}
 ```
 
 <hr/>
