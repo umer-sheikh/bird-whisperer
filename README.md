@@ -69,9 +69,9 @@ pip install -r requirements.txt
 </br>
 
 ## Dataset :page_with_curl:
-We have performed experiments on the following bird calls classification dataset: [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023)&nbsp;
+We have performed experiments on the bird calls classification dataset: [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023).
 
-We provide instructions for downloading and processing the dataset used by our method in the [DATASET.md](/birdclef_preprocess/DATASET.md). 
+We provide instructions for downloading and processing the dataset used by our method in the [DATASET.md](/birdclef-preprocess/DATASET.md). 
 
 All files after downloading and preprocessing should be placed in a directory named `birdclef2023-dataset` and the path of this directory should be specified in the variable `DATASET_ROOT` in the shell [scripts](/scripts/). The directory structure should be as follows:
 

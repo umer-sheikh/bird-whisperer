@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DATASET_ROOT=input_path_here
+DATASET_ROOT=<PATH_OF_DATASET_FOLDER>
 MODEL_NAME='whisper'
-SAVE_MODEL_ROOT=input_path_here
+SAVE_MODEL_ROOT=<PATH_TO_SAVE_MODEL_WEIGHTS>
 TRAINING_MODE='linear-probing'
 
 
