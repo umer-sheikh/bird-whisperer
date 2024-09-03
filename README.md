@@ -69,7 +69,7 @@ pip install -r requirements.txt
 </br>
 
 ## Dataset :page_with_curl:
-We have performed experiments on the bird calls classification dataset: [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023).
+We have performed experiments on the bird call classification dataset: [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023).
 
 We provide instructions for downloading and processing the dataset used by our method in the [DATASET.md](/birdclef-preprocess/DATASET.md). 
 
