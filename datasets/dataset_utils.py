@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 
 from datasets.dataset import BirdClefDataset
 
+
 def get_dicts(csv_path):
     # Reading the csv file
     df = pd.read_csv(csv_path)
